@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Praval Thapa Magar</title>
+  <style>
+    :root {
+      --bg: #07111f;
+      --card: #0f172a;
+      --text: #f8fafc;
+      --muted: #cbd5e1;
+      --accent: #38bdf8;
+      --accent2: #a78bfa;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, var(--bg), #1e293b);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 0 20px;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2.4rem;
+      color: var(--accent);
+    }
+
+    header p {
+      margin: 0 auto;
+      max-width: 700px;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.95);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: var(--accent2);
+    }
+
+    .emoji {
+      font-size: 1.5rem;
+      margin-right: 8px;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 0;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Praval Thapa Magar</h1>
+      <p>A bold mix of discipline, technology, strategy, and gaming.</p>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2><span class="emoji">🥊</span>Kickboxing</h2>
+        <p>Strong, focused, and always ready to push limits.</p>
+      </section>
+
+      <section class="card">
+        <h2><span class="emoji">🔧</span>Electronics</h2>
+        <p>Interested in how things work and how technology can be improved.</p>
+      </section>
+
+      <section class="card">
+        <h2><span class="emoji">♟️</span>Chess</h2>
+        <p>Enjoys thinking several moves ahead and outsmarting the opponent.</p>
+      </section>
+
+      <section class="card">
+        <h2><span class="emoji">🎮</span>FPS Games</h2>
+        <p>Loves fast-paced action, teamwork, and sharp reactions.</p>
+      </section>
+
+      <section class="card">
+        <h2><span class="emoji">📝</span>Personal Note</h2>
+        <p>I’m not a big fan of school, and I’m not very comfortable meeting people I don’t know.</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
